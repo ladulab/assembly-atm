@@ -106,7 +106,7 @@ A credit-card number is represented by byte (8-bits) where the first 3 bits repr
 ```
 
 ### Account Balance format in binary-code: (ABF)
-The account balance is represented by byte (8-bits) next to CCF byte, using the simplified and accepted binary base definition. The 8 bits together represent the amount accumulated in the account.
+The account balance is represented by byte (8-bits) next to CCF byte, using the simplified and accepted binary base definition. The 8 bits together represent the amount accumulated in the account, according to that the max amount is:
 ```
 (11111111)₂ = (1 × 2⁷) + (1 × 2⁶) + (1 × 2⁵) + (1 × 2⁴) 
               + (1 × 2³) + (1 × 2²) + (1 × 2¹) + (1 × 2⁰) = (255)₁₀
